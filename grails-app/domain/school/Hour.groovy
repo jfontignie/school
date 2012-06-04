@@ -7,6 +7,10 @@ class Hour {
     int endHour
     int endMinute
 
+
+    Date dateCreated
+    Date lastUpdated
+
     static constraints = {
     }
 }
