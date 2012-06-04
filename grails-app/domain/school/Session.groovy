@@ -11,7 +11,6 @@ class Session {
     Teacher teacher
     Group group
 
-
     Date dateCreated
     Date lastUpdated
     
