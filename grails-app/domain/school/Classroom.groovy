@@ -5,10 +5,13 @@ package school
  */
 class Classroom {
 
+    String name
+
     Date dateCreated
     Date lastUpdated
 
     static hasMany = [sessions: Session]
+
     static constraints = {
     }
 }

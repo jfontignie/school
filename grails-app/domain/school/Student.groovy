@@ -6,7 +6,7 @@ package school
 class Student extends Person {
 
     Degree degree
-    Group group
+    Set<Session> sessions
 
     static hasMany = [sessions: Session]
 

@@ -8,5 +8,5 @@ package school
  * To change this template use File | Settings | File Templates.
  */
 public enum Gender {
-    MALE, FEMALE
+    MALE, FEMALE, UNKNOWN
 }

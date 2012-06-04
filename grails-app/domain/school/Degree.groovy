@@ -12,5 +12,6 @@ class Degree {
     Date lastUpdated
 
     static constraints = {
+        name(unique: true)
     }
 }

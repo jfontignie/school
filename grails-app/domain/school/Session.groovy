@@ -9,7 +9,8 @@ class Session {
 
     WorkingHour workingHour
     Teacher teacher
-    Group group
+
+    Set<Student> students
 
     Date dateCreated
     Date lastUpdated
